@@ -1,8 +1,7 @@
 package com.bridgelabz.base.function;
 
 class Student {
-	private String fName;
-	private String lName;
+	private String fName, lName;
 	private long mobileNo;
 	private String street;
 	private int pinCode;
@@ -84,6 +83,10 @@ public class FunctionDemo {
 		return student;
 	}
 	
+	public void printSomething(final String abc) {
+		System.out.println(abc);
+	}
+	
 	public static void main(String[] args) {
 		FunctionDemo demo = new FunctionDemo();
 		
@@ -101,5 +104,6 @@ public class FunctionDemo {
 		System.out.println("Addition = "+demo.addTwoNumbers(Double.valueOf(5), Double.valueOf(10.5)));
 		
 		demo.printStudentDetails(demo.getStudentDetails());
+		demo.printSomething("skdhf");
 	}
 }
