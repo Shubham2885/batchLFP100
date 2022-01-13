@@ -44,8 +44,8 @@ public class OperatorDemo {
 		System.out.println(x);
 		
 		//Unery op
-		int  a = 5;
-		
+		int  a = 10;
+		System.out.println(~a);
 		System.out.println(a);
 		// postfix increment
 		a++;
@@ -69,5 +69,7 @@ public class OperatorDemo {
 		System.out.println(a);
 		System.out.println(--a);
 		System.out.println(a);
+		
+		
 	}
 }

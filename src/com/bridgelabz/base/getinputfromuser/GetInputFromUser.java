@@ -17,9 +17,14 @@ public class GetInputFromUser {
 		GetInputFromUser fromUser = new GetInputFromUser();
 //		fromUser.printMyAddress();
 		
-		System.out.println("Enter the number");
-		int number = scanner.nextInt();
-		fromUser.findEvenOrOdd(number);
+//		System.out.println("Enter the number");
+//		int number = scanner.nextInt();
+//		fromUser.findEvenOrOdd(number);
+		
+		System.out.println("Enter the charecter");
+		char ch = scanner.next().charAt(0);
+		System.out.println("Charecter is "+ch);
+		System.out.println("ASCII value = "+(int)ch);
 	}
 	
 	public void printMyAddress() {
