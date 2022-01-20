@@ -2,6 +2,8 @@ package com.bridgelabz.base.getinputfromuser;
 
 import java.util.Scanner;
 
+import com.bridgelabz.base.oop1.CompileTimePoly;
+
 public class GetInputFromUser {
 
 	static Scanner scanner = new Scanner(System.in);
@@ -25,6 +27,7 @@ public class GetInputFromUser {
 		char ch = scanner.next().charAt(0);
 		System.out.println("Charecter is "+ch);
 		System.out.println("ASCII value = "+(int)ch);
+		CompileTimePoly.print("ses");
 	}
 	
 	public void printMyAddress() {
